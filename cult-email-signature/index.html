@@ -5,24 +5,26 @@
     <title>CULT Email Signature</title>
   </head>
   <body style="margin:0; padding:0; background:#ffffff;">
+    <!-- Outer table keeps everything email-safe -->
     <table role="presentation" cellpadding="0" cellspacing="0" border="0"
            style="width:100%; max-width:480px; border-collapse:collapse; background:#FFFFFF;
-                  font-family: Arial, Helvetica, sans-serif; margin:0;">
+                  font-family:Arial, Helvetica, sans-serif; margin:0;">
+
+      <!-- Header: left (name/title), right (contacts) -->
       <tr>
-        <!-- Left: name + title -->
-        <td valign="top" style="padding:0 10px 6px 0;">
-          <div style="font-size:18px; font-weight:400; text-transform:uppercase; line-height:22px; color:#000000;">
+        <!-- LEFT: name + title -->
+        <td valign="bottom" style="padding:0 10px 6px 0;">
+          <div style="font-size:18px; font-weight:400; text-transform:uppercase; line-height:22px; color:#000;">
             ALYSSA BONANNO
           </div>
-          <div style="font-size:12px; font-weight:400; text-transform:uppercase; line-height:16px; color:#000000;">
+          <div style="font-size:12px; font-weight:400; text-transform:uppercase; line-height:16px; color:#000;">
             HIGH PRIEST
           </div>
         </td>
 
-        <!-- Right: contact (left-aligned inside; nudged down to align) -->
-        <td valign="top" align="right"
-            style="padding-top:4px; padding-left:10px; padding-right:10px; max-width:200px;">
-          <table cellpadding="0" cellspacing="0" border="0" style="text-align:left;">
+        <!-- RIGHT: grey contacts (left-aligned INSIDE the right cell), baseline matched to title -->
+        <td valign="bottom" align="right" style="padding:0 10px 6px 10px; max-width:210px;">
+          <table role="presentation" cellpadding="0" cellspacing="0" border="0" style="text-align:left;">
             <tr>
               <td style="font-size:12px; color:#939693; line-height:16px; text-transform:uppercase;">
                 <a href="mailto:ALYSSA@CULTHOLDINGS.CO" style="color:#939693; text-decoration:none;">ALYSSA@CULTHOLDINGS.CO</a><br>
@@ -36,13 +38,13 @@
       <!-- Spacer -->
       <tr><td colspan="2" style="height:12px;"></td></tr>
 
-      <!-- Banner GIF -->
+      <!-- GIF banner -->
       <tr>
-        <td colspan="2">
-          <img src="https://cult-email.vercel.app/sig/signature.gif"
-               alt="Cult Holdings"
-               width="480"
-               style="display:block; border:0; outline:0; width:100%; max-width:480px; height:auto;">
+        <td colspan="2" style="padding:0;">
+          <img
+            src="https://cult-email.vercel.app/sig/signature.gif"
+            alt="Cult Holdings Co."
+            style="display:block; border:0; outline:0; width:100%; max-width:480px; height:auto;">
         </td>
       </tr>
 
@@ -51,10 +53,10 @@
 
       <!-- Disclaimer -->
       <tr>
-        <td colspan="2" style="font-size:10px; line-height:14px; color:#000000; text-align:justify;">
+        <td colspan="2" style="font-size:10px; line-height:14px; color:#000; text-align:left;">
           THIS EMAIL AND ANY ATTACHMENTS ARE INTENDED ONLY FOR THE NAMED RECIPIENT AND MAY CONTAIN CONFIDENTIAL OR
-          PRIVILEGED INFORMATION. IF YOU ARE NOT THE INTENDED RECIPIENT, PLEASE NOTIFY THE SENDER AND DELETE THIS MESSAGE.
-          ANY UNAUTHORIZED USE, COPYING, OR DISTRIBUTION IS STRICTLY PROHIBITED.
+          PRIVILEGED INFORMATION. IF YOU ARE NOT THE INTENDED RECIPIENT, PLEASE NOTIFY THE SENDER AND DELETE THIS
+          MESSAGE. ANY UNAUTHORIZED USE, COPYING, OR DISTRIBUTION IS STRICTLY PROHIBITED.
         </td>
       </tr>
     </table>
