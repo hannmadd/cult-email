@@ -2,39 +2,55 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Email Signature</title>
+    <title>CULT Email Signature</title>
   </head>
-  <body style="margin:0; padding:0; font-family: Arial, sans-serif; font-size:14px; color:#000000;">
-    <table width="600" cellpadding="0" cellspacing="0" border="0" style="margin:0; padding:0;">
-      <!-- Top Section -->
+  <body style="margin:0; padding:0; background:#ffffff;">
+    <table role="presentation" cellpadding="0" cellspacing="0" border="0"
+           style="width:100%; max-width:480px; border-collapse:collapse; background:#FFFFFF; font-family:Arial, Helvetica, sans-serif; margin:0;">
+
+      <!-- Header row (unchanged structure) -->
       <tr>
-        <td valign="bottom" align="left" style="padding:0; font-size:24px; font-weight:normal; line-height:28px;">
-          ALYSSA BONANNO<br>
-          <span style="font-size:18px;">HIGH PRIEST</span>
+        <!-- LEFT: name + title -->
+        <td valign="bottom" style="padding:0 8px 6px 0; width:60%;">
+          <div style="font-size:18px; font-weight:400; text-transform:uppercase; line-height:22px; color:#000;">
+            ALYSSA BONANNO
+          </div>
+          <div style="font-size:12px; font-weight:400; text-transform:uppercase; line-height:16px; color:#000;">
+            HIGH PRIEST
+          </div>
         </td>
-        <td valign="bottom" align="right" style="padding:0; font-size:16px; color:#939693;">
-          <a href="mailto:ALYSSA@CULTHOLDINGS.CO" style="color:#939693; text-decoration:none;">ALYSSA@CULTHOLDINGS.CO</a><br>
-          <a href="http://www.cultholdings.co" style="color:#939693; text-decoration:none;">WWW.CULTHOLDINGS.CO</a>
+
+        <!-- RIGHT: grey contacts (left-aligned inside), baseline nudged -->
+        <td valign="bottom" style="padding:0 8px 6px 8px; width:40%;">
+          <div style="font-size:12px; color:#939693; line-height:16px; text-transform:uppercase; text-align:left; padding-top:1px;">
+            <a href="mailto:ALYSSA@CULTHOLDINGS.CO" style="color:#939693; text-decoration:none;">ALYSSA@CULTHOLDINGS.CO</a><br>
+            <a href="https://www.cultholdings.co" style="color:#939693; text-decoration:none;">WWW.CULTHOLDINGS.CO</a>
+          </div>
         </td>
       </tr>
 
       <!-- Spacer -->
-      <tr><td colspan="2" style="height:15px;"></td></tr>
+      <tr><td colspan="2" style="height:12px;"></td></tr>
 
-      <!-- Main Banner -->
+      <!-- GIF -->
       <tr>
-        <td colspan="2" align="center">
-          <img src="https://cult-email-signature.vercel.app/sig/signature.gif" alt="Cult Holdings Co." width="100%" style="max-width:600px; display:block;">
+        <td colspan="2" style="padding:0;">
+          <img src="https://cult-email.vercel.app/sig/signature.gif"
+               alt="Cult Holdings Co."
+               style="display:block; border:0; outline:0; width:100%; max-width:480px; height:auto;">
         </td>
       </tr>
 
       <!-- Spacer -->
-      <tr><td colspan="2" style="height:15px;"></td></tr>
+      <tr><td colspan="2" style="height:12px;"></td></tr>
 
-      <!-- Disclaimer -->
+      <!-- Disclaimer (now justified) -->
       <tr>
-        <td colspan="2" style="font-size:12px; line-height:16px; color:#000000; text-align:justify;">
-          THIS EMAIL AND ANY ATTACHMENTS ARE INTENDED ONLY FOR THE NAMED RECIPIENT AND MAY CONTAIN CONFIDENTIAL OR PRIVILEGED INFORMATION. IF YOU ARE NOT THE INTENDED RECIPIENT, PLEASE NOTIFY THE SENDER AND DELETE THIS MESSAGE. ANY UNAUTHORIZED USE, COPYING, OR DISTRIBUTION IS STRICTLY PROHIBITED.
+        <td colspan="2"
+            style="font-size:10px; line-height:14px; color:#000; text-align:justify; text-justify:inter-word;">
+          THIS EMAIL AND ANY ATTACHMENTS ARE INTENDED ONLY FOR THE NAMED RECIPIENT AND MAY CONTAIN CONFIDENTIAL OR
+          PRIVILEGED INFORMATION. IF YOU ARE NOT THE INTENDED RECIPIENT, PLEASE NOTIFY THE SENDER AND DELETE THIS
+          MESSAGE. ANY UNAUTHORIZED USE, COPYING, OR DISTRIBUTION IS STRICTLY PROHIBITED.
         </td>
       </tr>
     </table>
