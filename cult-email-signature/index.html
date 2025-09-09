@@ -8,29 +8,31 @@
     <table role="presentation" cellpadding="0" cellspacing="0" border="0"
            style="width:100%; max-width:480px; border-collapse:collapse; background:#FFFFFF; font-family:Arial, Helvetica, sans-serif; margin:0;">
 
-      <!-- Header row (unchanged structure) -->
+      <!-- HEADER as a 2-row table: exact baseline alignment -->
       <tr>
-        <!-- LEFT: name + title -->
-        <td valign="bottom" style="padding:0 8px 6px 0; width:60%;">
-          <div style="font-size:18px; font-weight:400; text-transform:uppercase; line-height:22px; color:#000;">
-            ALYSSA BONANNO
-          </div>
-          <div style="font-size:12px; font-weight:400; text-transform:uppercase; line-height:16px; color:#000;">
-            HIGH PRIEST
-          </div>
+        <td colspan="2" style="padding:0;">
+          <table role="presentation" cellpadding="0" cellspacing="0" border="0" style="width:100%; border-collapse:collapse;">
+            <!-- Row 1: Name ↔ Email -->
+            <tr>
+              <td align="left"  style="padding:0 8px 2px 0;  font-size:18px; line-height:22px; color:#000; text-transform:uppercase; font-weight:400;">
+                ALYSSA BONANNO
+              </td>
+              <td align="right" style="padding:0 8px 2px 8px; font-size:12px; line-height:22px; color:#939693; text-transform:uppercase;">
+                <a href="mailto:ALYSSA@CULTHOLDINGS.CO" style="color:#939693; text-decoration:none;">ALYSSA@CULTHOLDINGS.CO</a>
+              </td>
+            </tr>
+            <!-- Row 2: Title ↔ Website -->
+            <tr>
+              <td align="left"  style="padding:0 8px 0 0;  font-size:12px; line-height:16px; color:#000; text-transform:uppercase; font-weight:400;">
+                HIGH PRIEST
+              </td>
+              <td align="right" style="padding:0 8px 0 8px; font-size:12px; line-height:16px; color:#939693; text-transform:uppercase;">
+                <a href="https://www.cultholdings.co" style="color:#939693; text-decoration:none;">WWW.CULTHOLDINGS.CO</a>
+              </td>
+            </tr>
+          </table>
         </td>
-
-<!-- RIGHT: grey contacts split into two rows -->
-<td style="padding:0 8px 0 8px; width:40%; text-align:left;">
-  <div style="font-size:12px; color:#939693; text-transform:uppercase; line-height:22px;">
-    <a href="mailto:ALYSSA@CULTHOLDINGS.CO" 
-       style="color:#939693; text-decoration:none;">ALYSSA@CULTHOLDINGS.CO</a>
-  </div>
-  <div style="font-size:12px; color:#939693; text-transform:uppercase; line-height:16px;">
-    <a href="https://www.cultholdings.co" 
-       style="color:#939693; text-decoration:none;">WWW.CULTHOLDINGS.CO</a>
-  </div>
-</td>
+      </tr>
 
       <!-- Spacer -->
       <tr><td colspan="2" style="height:12px;"></td></tr>
@@ -47,7 +49,7 @@
       <!-- Spacer -->
       <tr><td colspan="2" style="height:12px;"></td></tr>
 
-      <!-- Disclaimer (now justified) -->
+      <!-- Disclaimer (justified edges) -->
       <tr>
         <td colspan="2"
             style="font-size:10px; line-height:14px; color:#000; text-align:justify; text-justify:inter-word;">
